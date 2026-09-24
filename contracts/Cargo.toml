@@ -3,6 +3,7 @@ resolver = "2"
 members = [
     "packages/shared/access",
     "packages/shared/storage_version",
+    "packages/shared/errors",
     "packages/admin",
     "packages/airline",
     "packages/booking",
@@ -31,6 +32,7 @@ publish = false
 soroban-sdk = { version = "22.0.0" }
 access = { path = "packages/shared/access" }
 storage-version = { path = "packages/shared/storage_version" }
+errors = { path = "packages/shared/errors" }
 airline = { path = "packages/airline" }
 booking = { path = "packages/booking" }
 booking-receipt = { path = "packages/booking_receipt" }
