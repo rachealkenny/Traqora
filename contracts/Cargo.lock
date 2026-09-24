@@ -6,6 +6,7 @@ version = 4
 name = "access"
 version = "0.1.0"
 dependencies = [
+ "errors",
  "soroban-sdk",
 ]
 
@@ -634,6 +635,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "errors"
+version = "0.1.0"
+dependencies = [
+ "soroban-sdk",
+]
+
+[[package]]
 name = "escape-bytes"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -908,6 +916,7 @@ dependencies = [
  "booking-receipt",
  "dispute",
  "dispute-resolution",
+ "errors",
  "flight-booking",
  "flight-registry",
  "governance",
